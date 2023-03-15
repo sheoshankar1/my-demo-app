@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/select-product.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ebf3ff">
+    <input type="hidden" id="anPageName" name="page" value="select-product" />
+    <div class="container-center-horizontal">
+      <div class="select-product screen">
+        <div class="overlap-group4">
+          <h1 class="title">Return your products</h1>
+          <p class="select-the-products inter-normal-black-12px">
+            Select the products you want to return. <br />When you are done, press continue.
+          </p>
+          <div id="overlap1" class="overlap-group-1" onclick="ChangeColor()">
+            <img class="image-2" src="img/image-2@2x.png" alt="image 2" />
+            <div class="flex-col">
+              <div class="item inter-semi-bold-black-20px">Item 1</div>
+              <div class="size-s-colour-yellow inter-normal-black-12px">Size: S<br />Colour: Yellow</div>
+            </div>
+            <div class="price inter-normal-black-12px">NOK 2000</div>
+          </div>
+          <div id ="overlap2" class="overlap-group" onclick="ChangeColor2()">
+            <img class="image-2" src="img/image-2@2x.png" alt="image 2" />
+            <div class="flex-col">
+              <div class="item inter-semi-bold-black-20px">Item 2</div>
+              <div class="size-s-colour-yellow inter-normal-black-12px">Size: S<br />Colour: Yellow</div>
+            </div>
+            <div class="price inter-normal-black-12px">NOK 2000</div>
+          </div>
+          <div id="overlap3" class="overlap-group" onclick="ChangeColor3()">
+            <img class="image-2" src="img/image-2@2x.png" alt="image 2" />
+            <div class="flex-col">
+              <div class="item inter-semi-bold-black-20px">Item 3</div>
+              <div class="size-s-colour-yellow inter-normal-black-12px">Size: S<br />Colour: Yellow</div>
+            </div>
+            <div class="price inter-normal-black-12px">NOK 2000</div>
+          </div>
+          <button id="button1" class="overlap-group3" onclick="movenext()" ><a class="continue" href="../screen2/frame-1.html">Continue</a></button>
+        </div>
+      </div>
+    </div>
+  </body>
+<script>
+function ChangeColor()
+{
+var element = document.getElementById("overlap1");
+var element2 = document.getElementById("overlap2");
+var element3 = document.getElementById("overlap3");
+var button1= document.getElementById("button1");
+element.style.backgroundColor = "#D4F0FF";
+element2.style.backgroundColor = "white";
+element3.style.backgroundColor = "white";
+button1.style.backgroundColor = "#57C3FF";
+
+}
+function ChangeColor2()
+{
+var element = document.getElementById("overlap1");
+var element2 = document.getElementById("overlap2");
+var element3 = document.getElementById("overlap3");
+var button1= document.getElementById("button1");
+element.style.backgroundColor = "white";
+element2.style.backgroundColor = "#D4F0FF";
+element3.style.backgroundColor = "white";
+button1.style.backgroundColor = "#57C3FF";
+
+}
+function ChangeColor3()
+{
+var element = document.getElementById("overlap1");
+var element2 = document.getElementById("overlap2");
+var element3 = document.getElementById("overlap3");
+var button1= document.getElementById("button1");
+element.style.backgroundColor = "white";
+element2.style.backgroundColor = "white";
+element3.style.backgroundColor = "#D4F0FF";
+button1.style.backgroundColor = "#57C3FF";
+
+}
+
+</script>
+</html>

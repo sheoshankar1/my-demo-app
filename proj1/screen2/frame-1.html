@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/frame-1.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="frame-1" />
+    <div class="container-center-horizontal">
+      <div class="frame-1 screen">
+        <div class="item">
+          <div class="overlap-group-2 overlap-group-3">
+            <img class="image-2" src="img/image-2@2x.png" alt="image 2" />
+            <div class="flex-col">
+              <div class="item-1">Item 1</div>
+              <div class="size-s-colour-yellow">Size: S<br />Colour: Yellow</div>
+            </div>
+            <div class="price">NOK 2000</div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="overlap-group overlap">
+            <input type="checkbox" class="rectangle-14" name="checkboxes" onclick="ValidatePetSelection()"></input>
+            <div class="wrong-size inter-medium-black-16px">Wrong size</div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="overlap-group overlap">
+            <input type="checkbox" class="rectangle-14" name="checkboxes" onclick="ValidatePetSelection()"></input>
+            <div class="quality-not-as-expected inter-medium-black-16px">Quality not as expected</div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="overlap-group-1 overlap-group-3">
+            <input type="checkbox" class="rectangle-14" name="checkboxes" onclick="ValidatePetSelection()"></input>
+            <div class="too-expensive inter-medium-black-16px">Too expensive</div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="overlap-group-1 overlap-group-3">
+            <input type="checkbox" class="rectangle-14" name="checkboxes" onclick="ValidatePetSelection()"></input>
+            <div class="regret-purchase inter-medium-black-16px">Regret purchase</div>
+          </div>
+        </div>
+        <div class="group">
+          <div class="overlap-group overlap">
+            <input type="checkbox" class="rectangle-14" name="checkboxes" onclick="ValidatePetSelection()"></input>
+            <p class="added-it-for-free-shipping inter-medium-black-16px">Added it for free shipping</p>
+          </div>
+        </div>
+        <div class="next-button">
+          <button id="button1" class="overlap-group1 overlap"><a class="title" href="../screen3/frame-2.html">Continue</a></button>
+        </div>
+      </div>
+    </div>
+  </body>
+<script type="text/javascript">  
+function ValidatePetSelection()  
+{  
+    var checkboxes = document.getElementsByName("checkboxes");  
+    var numberOfCheckedItems = 0;  
+    for(var i = 0; i < checkboxes.length; i++)  
+    {  
+        if(checkboxes[i].checked)  
+			{
+			numberOfCheckedItems ++;
+            document.getElementById("button1").style.backgroundColor = "#57C3FF";
+			}
+    }  
+if(numberOfCheckedItems==0)
+{
+document.getElementById("button1").style.backgroundColor = "#d9d9d9"; 
+}  
+}
+      
+</script>
+</html>

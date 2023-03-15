@@ -1,0 +1,105 @@
+/* screen - frame-2 */
+
+.frame-2 {
+  align-items: flex-end;
+  background-color: #f3f3f3;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 780px;
+  padding: 44px 32px;
+  width: 424px;
+}
+
+.frame-2 .item {
+  align-items: flex-start;
+  display: flex;
+  min-width: 356px;
+}
+
+.frame-2 .overlap-group {
+  align-items: flex-end;
+  border-radius: 5px;
+  height: 139px;
+  justify-content: flex-end;
+  padding: 11px 9px;
+}
+
+.frame-2 .image-2 {
+  height: 115px;
+  object-fit: cover;
+  width: 87px;
+}
+
+.frame-2 .flex-col {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 17px;
+  margin-top: 3px;
+  min-height: 104px;
+  width: 81px;
+}
+
+.frame-2 .item-1 {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 24px;
+}
+
+.frame-2 .size-s-colour-yellow {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 30px;
+}
+
+.frame-2 .price {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 7px;
+  margin-left: 83px;
+  min-height: 15px;
+  min-width: 60px;
+  text-align: right;
+}
+
+.frame-2 .overlap-group1 {
+  align-items: flex-start;
+  align-self: center;
+  border: 1px solid;
+  border-color: #b1afaf;
+  height: 40px;
+  margin-right: 4.0px;
+  padding: 10px 12px;
+}
+
+.frame-2 .input-location {
+  color: #a19b9b;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 19px;
+}
+
+.frame-2 .overlap {
+  background-color: #ffffff;
+  display: flex;
+  min-width: 350px;
+}
